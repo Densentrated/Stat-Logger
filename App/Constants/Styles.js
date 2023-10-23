@@ -40,8 +40,17 @@ const styles = StyleSheet.create({
     height: "24%",
     padding: "2%",
   },
-  blockLeftHalf: {},
-  blockRighthalf: {},
+  blockSubContainer: {
+    flexDirection: "row",
+  },
+  blockLeftHalf: {
+    padding: "2%",
+    width: "30%",
+  },
+  blockRightHalf: {
+    width: "60%",
+    padding: "2%",
+  },
 });
 
 export default styles;
