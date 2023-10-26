@@ -12,11 +12,11 @@ const styles = StyleSheet.create({
   },
   bottomHalfContainer: {
     width: "100%",
-    height: "32%",
+    height: "36%",
   },
   topHalfContainer: {
     width: "100%",
-    height: "56%",
+    height: "52%",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -28,16 +28,18 @@ const styles = StyleSheet.create({
   },
   textDefault: {
     color: "#FFFFFF",
+    fontSize: 14,
+    fontFamily: "3720Font",
   },
   textSmall: {
     color: "#FFFFFF",
     fontSize: 10,
+    fontFamily: "3720Font",
   },
   blockContainer: {
     borderWidth: 1,
     borderColor: "#FFFFFF",
-    width: "86%",
-    height: "24%",
+    width: "100%",
     padding: "2%",
   },
   blockSubContainer: {
@@ -45,11 +47,17 @@ const styles = StyleSheet.create({
   },
   blockLeftHalf: {
     padding: "2%",
-    width: "30%",
+    marginHorizontal: "4%",
+    width: "24%",
   },
   blockRightHalf: {
-    width: "60%",
+    width: "66%",
     padding: "2%",
+  },
+  listContainer: {
+    width: "100%",
+    paddingVertical: "4%",
+    paddingHorizontal: "2%",
   },
 });
 

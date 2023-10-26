@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import React, { useState } from "react";
-import { MoodBlock } from "../Components/MoodBlock.js";
+import { MoodList } from "../Components/MoodList/MoodList.js";
 import styles from "../Constants/Styles.js";
 
 export const HomeScreen = () => {
@@ -9,7 +9,7 @@ export const HomeScreen = () => {
     <View style={styles.container}>
       <StatusBar style="light" />
       <View style={styles.topHalfContainer}>
-        <MoodBlock />
+        <MoodList />
       </View>
       <View style={styles.separator}></View>
       <View style={styles.bottomHalfContainer}></View>
