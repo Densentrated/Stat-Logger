@@ -14,8 +14,9 @@ export const MoodList = () => {
             <MoodBlock block={item} />
           </View>
         )}
-        snapToInterval={160}
+        snapToInterval={150}
         snapToAllignment={"start"}
+        decelerationRate={"fast"}
         contentContainerStyle={{
           alignItems: "center",
           nestedScrollEnabled: true,

@@ -56,9 +56,34 @@ const styles = StyleSheet.create({
   },
   listContainer: {
     width: "100%",
-    paddingVertical: "4%",
+    paddingVertical: "5%",
     paddingHorizontal: "2%",
   },
+  switchContainer: {},
+  submitButtonContainer: {
+    justifyContent: "center",
+    width: "94%",
+    marginHorizontal: "3%",
+  },
+  separatorHorizontal: {
+    backgroundColor: "#FFFFFF",
+    width: StyleSheet.hairlineWidth,
+    height: "100%",
+  },
+  submitButton: {
+    width: "100%",
+    borderWidth: 1,
+    borderColor: "#FFFFFF",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  sliderContainer: {
+    width: "100%",
+    height: "50%",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  checkersContainer: {},
 });
 
 export default styles;
