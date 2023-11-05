@@ -4,7 +4,7 @@ import styles from "../../Constants/Styles.js";
 export const SubmitButton = ({ onPress, title }) => (
   <TouchableOpacity onPress={onPress}>
     <View style={styles.submitButton}>
-      <Text style={styles.textDefault}>SUBMIT</Text>
+      <Text style={styles.textDefault}>SEND IT!</Text>
     </View>
   </TouchableOpacity>
 );

@@ -77,13 +77,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  sliderContainer: {
-    width: "100%",
-    height: "50%",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  checkersContainer: {},
 });
 
 export default styles;
