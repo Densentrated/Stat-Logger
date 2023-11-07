@@ -5,6 +5,7 @@ Stat-Logger is an open source, React Native app that can be used to track a pers
 ## Screenshots
 
 Screen shots of the application:
+
 ![An Image of the Application](image.png)
 
 ## How to use
