@@ -65,17 +65,37 @@ const styles = StyleSheet.create({
     width: "94%",
     marginHorizontal: "3%",
   },
-  separatorHorizontal: {
-    backgroundColor: "#FFFFFF",
-    width: StyleSheet.hairlineWidth,
-    height: "100%",
-  },
   submitButton: {
     width: "100%",
     borderWidth: 1,
     borderColor: "#FFFFFF",
     alignItems: "center",
     justifyContent: "center",
+  },
+  tidbitsContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    height: "100%",
+    width: "100%",
+  },
+  groupSliderContainer: {
+    width: "43%",
+    height: "98%",
+    borderColor: "#FFFFFF",
+    borderWidth: 1,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    allignItems: "center",
+    paddingHorizontal: 6,
+  },
+  checkBoxContainer: {
+    width: "55%",
+    height: "98%",
+    borderColor: "#FFFFFF",
+    borderWidth: 1,
   },
 });
 
