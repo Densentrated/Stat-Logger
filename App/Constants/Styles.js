@@ -96,6 +96,14 @@ const styles = StyleSheet.create({
     height: "98%",
     borderColor: "#FFFFFF",
     borderWidth: 1,
+    alignItems: "center",
+  },
+  checkBoxHolder: {
+    flexDirection: "row",
+    allignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+    height: "18%",
   },
 });
 

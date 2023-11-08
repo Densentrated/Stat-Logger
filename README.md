@@ -18,6 +18,7 @@ Screen shots of the application:
 
 - The ability to change the parameters through the app
 - The ability to delete Individual "Stat Logs"
+- The ability to display a user's mood as the box border color
 
 ## DIY Compilation
 

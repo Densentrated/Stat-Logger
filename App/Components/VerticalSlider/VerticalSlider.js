@@ -1,6 +1,7 @@
 import styles from "../../Constants/Styles.js";
 import { View, Text } from "react-native";
 import { Slider } from "react-native-elements";
+import Ionicons from "@expo/vector-icons/Ionicons";
 
 export const VerticalSlider = ({ onChange, min, max, letter, value }) => (
   <View
@@ -11,8 +12,8 @@ export const VerticalSlider = ({ onChange, min, max, letter, value }) => (
     paddingVertical="28%"
     textAlign="center"
   >
-    <Text style={styles.textDefault} padding="4%">
-      {letter}: {value}
+    <Text style={styles.textDefault} padding="2%">
+      {letter}:{value}
     </Text>
 
     <Slider
